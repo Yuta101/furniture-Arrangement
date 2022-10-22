@@ -1,0 +1,103 @@
+
+.output-btn{
+    position: relative;
+    top: 5px;
+    left: 340px;
+};
+
+.abc{
+    position: relative;
+    top: 100px;
+
+};
+
+.dfg{
+    position: relative;
+    top: 720px;
+}
+
+.add-btn{
+    position: relative;
+    top: 5px;
+    left: 640px;
+}
+
+.div{
+    margin-left: 150px;
+    position: relative;
+    top: 5px;
+    left: 10px;
+    background-color: blueviolet;
+    width: 1000px;
+    
+}
+
+.div1{
+    position: relative;
+    top: 5px;
+    left: 10px;
+    background-color: red;
+    
+}
+
+.aaa{
+
+    position: relative;
+    left: 500px;
+    top: 7px;
+}
+
+
+.tobira{
+    position: relative;
+    
+    text-align: center;
+    vertical-align: -25px;
+    width: 50px;
+    height: 50px;
+
+    background-color: brown;
+    border-radius:50% 50% 50% 50% / 100% 100% 0% 0% ;
+
+}
+
+.sentaku{
+    text-align: center;
+}
+
+.div2{
+    background-color: red;
+  border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;  
+
+
+}
+
+.mado{
+    position: relative;
+    left: 55px;
+   
+
+    text-align: center;
+    vertical-align: -25px;
+    width: 50px;
+    height: 50px;
+
+    background-color: aqua;
+    border-radius:0% 100% 0% 100% / 70% 30% 70% 30% ;
+
+}
+
+.divtest{
+    position: relative;
+    display:flex;
+    height: 40px;
+    width: 1000px;
+    padding-left: 160px;
+
+}
+
+.aaa{
+    position: relative;
+    left: 500px;
+    top: 7px;
+}

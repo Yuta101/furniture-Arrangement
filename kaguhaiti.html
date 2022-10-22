@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>家具配置サイト</title>
+</head>
+
+<body>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
+
+    <link rel="stylesheet" href="kaguhaiti.css">
+    <p>部屋の大きさ</p>
+    <label>縦</label>
+    <input type="text" placeholder="数字を入力してください" id="nyuuryoku">
+    <label>cm</label>
+    <label>横</label>
+    <input type="text" placeholder="数字を入力してください" id="nyuuryoku1">
+    <label>cm</label>
+    <br>
+    <button id="output-btn" class="output-btn">部屋の大きさ決定</button>
+    <div class="aaa">
+        <label class="idou">移動</label>
+        <input type="radio" name="hennkou" id="idou" value="idou">
+        <label class="kakudo">角度変更</label>
+        <input type="radio" name="hennkou" id="hennkou" value="hennkou">
+        <label id="remove">家具削除</label>
+        <input type="radio" name="hennkou" id="remove" value="remove">
+    </div>
+    <br>
+    <div class="divtest">
+        <div class="tobira">扉</div> <div class="mado">窓</div>
+    </div>
+    <div class="div">
+   
+    </div>
+
+    <div class="abc">
+        <br><br>
+        <label class="haichi">家具名前</label>
+        <br>
+        <input type="text" id="sentaku">
+        <br><br>
+        <label class="sentaku1">家具選択</label>
+        <br>
+        <label class="sikakkei">四角形</label>
+        <input type="radio" name="tuika" id="tuika" value="sikakkei">
+        <label class="maru">丸型</label>
+        <input type="radio" name="tuika" id="tuika1" value="maru">
+        <br><br>
+        <label>縦</label>
+        <input type="text" placeholder="数字を入力してください" class="suuzi2">
+        <label>cm</label>
+        <label>横</label>
+        <input type="text" placeholder="数字を入力してください" class="suuzi">
+        <label>cm</label>
+        <label>直径</label>
+        <input type="text" placeholder="数字を入力してください" class="suuzi1">
+        <label>cm</label>
+        <br>
+        <button id="add-btn" class="add-btn">家具追加</button>
+    </div>
+
+    
+        <br><br><br>
+        <label>扉</label>
+        <input type="checkbox" name="add-Tobira" class="add-tuika" value="tobira">
+        <label>窓</label>
+        <input type="checkbox" name="add-Mado" id="add-tuika1" value="mado">
+        
+    
+
+    <script src="kaguhaiti.js"></script>
+</body>
+
+</html>
