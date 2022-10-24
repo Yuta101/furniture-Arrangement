@@ -1,6 +1,6 @@
 $(function () {
 
-  
+
     const btn = document.getElementById("output-btn");
     let nyuuryoku = document.getElementById("nyuuryoku");
     let nyuuryoku1 = document.getElementById("nyuuryoku1");
@@ -14,6 +14,10 @@ $(function () {
     //・部屋の大きさ横（1000ピクセル固定固定）÷　入力した部屋の大きさ横　×　部屋の大きさ縦
 
     $('#output-btn').on("click", () => {
+
+      $('.div1').remove();
+      $('.div2').remove();
+
 
         inputValue = nyuuryoku.value;
         inputValue1 = nyuuryoku1.value;
@@ -30,6 +34,7 @@ $(function () {
 
         $('.abc').show();
         $('.aaa').show();
+
 
     });
 
