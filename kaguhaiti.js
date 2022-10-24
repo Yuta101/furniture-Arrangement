@@ -1,5 +1,6 @@
 $(function () {
 
+  
     const btn = document.getElementById("output-btn");
     let nyuuryoku = document.getElementById("nyuuryoku");
     let nyuuryoku1 = document.getElementById("nyuuryoku1");
